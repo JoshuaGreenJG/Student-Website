@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+  position: relative;
+}
+
+header,
+body {
+  background-color: #000000;
+}
+
+body section {
+  margin-top: 100px;
+}
+
+body section:nth-child(1) {
+  margin-top: 0;
+}
+
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body strong,
+body label {
+  color: #ffffff;
+}
+
+h2 {
+  text-transform: uppercase;
+  display: inline-block;
+  width: 75%;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 40px 20px;
+  color: #ffffff;
+  display: block;
+  transition: 300ms ease-in-out all;
+}
+
+nav a:hover {
+  color: aqua;
+}
+
+.hero {
+  background-image: url("../img/hero.jpeg");
+  background-size: cover;
+  background-position-y: center;
+  height: 50vh;
+}
+
+.hero .container {
+  height: 100%;
+}
+
+.hero .hero__content {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+}
+
+.hero .hero__content h1 {
+  font-size: 3em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.blogs .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blogs article {
+  padding: 0 15px;
+}
+
+.blogs img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-form .container {
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-form .container span {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.contact-form .container span label {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-form .container input,
+.contact-form .container textarea {
+  width: 50%;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.contact-form .container input[type="submit"] {
+  width: unset;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+}
+
+#contact-page .hero {
+  height: 30vh;
+}
